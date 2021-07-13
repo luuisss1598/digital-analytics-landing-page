@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+button {
+    font-size: 16px;
+
+}
+
+/* typography */
+
+    /* header typography */
+        header nav div ul{
+            font-size: 14px;
+        }
+
+        header a {
+            text-decoration: none;
+        }
+
+        main h1 {
+            font-size: 68px;
+        }
+
+        main p {
+            font-size: 20px;
+        }
+        main h1 span {
+            display: block;
+        }
+
+
+/* layout */
+        /* layout for whole page */
+        .container {
+            /* border: #000 2px solid; */
+            margin: 20px;
+            padding: 0 15px;
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 400px;
+            height: 500px;
+        }
+
+/* ///////////////////////////////////////////////// */
+        /* layout for header */
+            header nav{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            header nav .left-nav {
+                display: flex;
+            }
+
+            header nav .left-nav, .right-nav {
+                /* border: red 1px solid; */
+                margin: 10px 0;
+                padding: 10px 0;
+            }
+
+            .nav-list {
+                display: flex;
+                align-items: center;
+                list-style: none;
+                margin-left: 30px;
+                /* border: greenyellow 1px solid; */
+            }
+
+            .nav-list li {
+                margin-right: 20px;
+                font-style: normal;
+                letter-spacing: 5px;
+                border-bottom: #000 1px solid;
+            }
+
+            .nav-list li:hover, 
+            .nav-list li a:hover {
+                transform: scale(1.05);
+                color: #000;
+                font-weight: 600;
+            }
+
+            nav a {
+                color: #000;
+            }
+
+            header nav .right-nav button {
+                background-color: aqua;
+                padding: 10px 20px;
+                border-style: none;
+                text-align: center;
+                letter-spacing: 2px;
+                border-radius: 20px;
+            }
+
+            header nav .right-nav .btn-logIn {
+                background-color: #fff;
+                color: #000;
+            }
+
+            header nav .right-nav .btn-signUp {
+                background-color: #000;
+                color: #fff;
+            }
+
+            header nav .right-nav .btn-signUp:hover {
+                background-color: #c4baff;
+                color: #000;
+            }
+
+            header nav .right-nav button {
+                border: lightblue 1px solid;
+            }
+/* ///////////////////////////////////////////////// */
+
+    /* layout for main-content */
+            
+            /* layout for left-side main-content */
+                main {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .left-side-container, .right-side-container {
+                    margin: 20px 0;
+                    /* border: red 1px solid; */
+                }
+
+                .left-side-container {
+                    margin-left: 98px;
+                }
+
+                .left-side-container {
+                    padding-top: 30px;
+                }
+
+                .left-side-container h1 {
+                    /* border: blue 1px solid; */
+                    padding: 20px 0;
+                }
+
+                .left-side-container p {
+                    /* border: olive 2px solid; */
+                    width: 275px;
+                    margin: 10px 0 30px 0;
+                    letter-spacing: 1px;
+                }
+
+                .left-side-buttons {
+                    text-align: left;
+                }
+
+                .left-side-container button {
+                    border-style: none;
+                    border-radius: 20px;
+                    padding: 15px 30px;
+                    text-align: center;
+                    letter-spacing: 3px;
+                    border: #c4baff 1px solid;
+                }
+
+                .btn-started {
+                    background-color: #000;
+                    color: #fff;
+                }
+
+                .btn-started:hover {
+                    background-color: #c4baff;
+                    color: #000;
+                }
+                
+                .btn-free {
+                    background-color: #fff;
+                    color: #000;
+                }
+
+            /* layout for right-side container */   
+                .right-side-container {
+                    margin-right: 103px;
+                }
+/* ///////////////////////////////////////////////// */
+    /* layout for footer */
+        .footer-main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .left-side-footer, 
+        .right-side-footer{
+            margin: 20px 0;
+        }
+            /* layout for left side footer */
+            .left-side-footer {
+                display: flex;
+                align-items: center;
+            }
+
+            .left-side-footer p {
+                margin-left: 5px;
+            }
+
+            .left-side-footer .btn-jobs {
+                padding: 5px 10px;
+                border-style: none;
+                background-color: #fff;
+                border: #000 1px solid;
+                border-radius: 20px;
+                color: #000;
+            }
+
+            .right-side-footer h3 {
+                font-size: 30px;
+            }
+
+            .right-side-footer h3:hover {
+                transform: scale(1.05);
+                font-weight: bold;
+            }
+
+            .wrapper {
+                margin: 20px;
+                border: #000 1px solid;
+            }
